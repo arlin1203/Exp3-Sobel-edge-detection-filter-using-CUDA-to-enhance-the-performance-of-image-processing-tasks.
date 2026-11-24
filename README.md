@@ -36,7 +36,7 @@ Compare the output of your CUDA Sobel filter with a CPU-based Sobel filter imple
 Discuss the differences in execution time and output quality.
 
 ## PROGRAM:
-```
+```C
 %%writefile sobelEdgeDetectionFilter.cu
 #include <stdio.h>
 #include <stdlib.h>
